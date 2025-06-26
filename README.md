@@ -1,12 +1,12 @@
-# ⚡️ r-17 ⚡️
+# ⚡️ remult-better-auth-sveltekit ⚡️
 
 Everything you need to build a great `remult` project, powered by [`create-remult`](https://github.com/remult/remult/tree/main/projects/create-remult).
 
 ### What's Included?
 
-- 🚀 [Remult](https://remult.dev/): Fullstack Type-safe CRUD & Realtime 
-- 🌟 [SvelteKit](https://kit.svelte.dev/): Your favorite framework/library 
-- 💾 [JSON Files](https://remult.dev/docs/quickstart#connecting-a-database): Used for dev, you can add a database later 
+- 🚀 [Remult](https://remult.dev/): Fullstack Type-safe CRUD & Realtime
+- 🌟 [SvelteKit](https://kit.svelte.dev/): Your favorite framework/library
+- 💾 [JSON Files](https://remult.dev/docs/quickstart#connecting-a-database): Used for dev, you can add a database later
 
 ### 🛠 Prerequisites
 
@@ -28,8 +28,6 @@ and install dependencies:
 ```bash
 npm install
 ```
-
-
 
 ### 🧑‍💻 Running the Dev Environment
 
