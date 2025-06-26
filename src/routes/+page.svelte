@@ -3,7 +3,9 @@
   import Admin from "../demo/Admin.svelte";
   import Todo from "../demo/todo/Todo.svelte";
   import "../styles.css";
+  import Auth from "../modules/auth/Auth.svelte";
 </script>
+
 <div class="tiles">
   <Tile
     title="r-17"
@@ -36,6 +38,7 @@
       </div>
     </div>
   </Tile>
+  <Auth />
   <Admin />
   <Todo />
 </div>

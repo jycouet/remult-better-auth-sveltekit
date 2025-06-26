@@ -7,11 +7,10 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       '@nerdfolio/remult-better-auth':
         specifier: ^0.2.18
-        version: 0.2.18(better-auth@1.2.10)(remult@3.0.5)
-    devDependencies:
+        version: 0.2.18(better-auth@1.2.10)(remult@3.0.6-next.0)
       '@sveltejs/adapter-auto':
         specifier: ^3.3.1
         version: 3.3.1(@sveltejs/kit@2.22.1(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.8)(vite@6.3.5(jiti@2.4.2)))(svelte@5.34.8)(vite@6.3.5(jiti@2.4.2)))
@@ -21,9 +20,12 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.1.0
         version: 5.1.0(svelte@5.34.8)(vite@6.3.5(jiti@2.4.2))
+      better-auth:
+        specifier: ^1.2.10
+        version: 1.2.10
       remult:
-        specifier: latest
-        version: 3.0.5
+        specifier: 3.0.6-next.0
+        version: 3.0.6-next.0
       svelte:
         specifier: ^5.33.14
         version: 5.34.8
@@ -676,8 +678,8 @@ packages:
   reflect-metadata@0.1.14:
     resolution: {integrity: sha512-ZhYeb6nRaXCfhnndflDK8qI6ZQ/YcWZCISRAWICW9XYqMUwjZM9Z0DveWX/ABN01oxSHwVxKQmxeYZSsm0jh5A==}
 
-  remult@3.0.5:
-    resolution: {integrity: sha512-37hprQ6MnbS/Ps+Ax+f6n1LKKezILX9/kJbHs9Ni1Jvu9J524bWuVG5NXs+e81eMKEUO6LcVmm5VO1xt/YBYfw==}
+  remult@3.0.6-next.0:
+    resolution: {integrity: sha512-IqaIQ5rjfOSiRmEmI5IXAU6UZcl/82U0qpXgWCh1XXF/12y5YI1E3KXWpRoYnUSaaoR3dAwIDQ3H3QFennMZyw==}
 
   rollup@4.44.1:
     resolution: {integrity: sha512-x8H8aPvD+xbl0Do8oez5f5o8eMS3trfCghc4HhLAnCkj7Vl0d1JWGs0UF/D886zLW2rOj2QymV/JcSSsw+XDNg==}
@@ -951,12 +953,12 @@ snapshots:
 
   '@levischuck/tiny-cbor@0.2.11': {}
 
-  '@nerdfolio/remult-better-auth@0.2.18(better-auth@1.2.10)(remult@3.0.5)':
+  '@nerdfolio/remult-better-auth@0.2.18(better-auth@1.2.10)(remult@3.0.6-next.0)':
     dependencies:
       better-auth: 1.2.10
       c12: 3.0.4
       citty: 0.1.6
-      remult: 3.0.5
+      remult: 3.0.6-next.0
     transitivePeerDependencies:
       - magicast
 
@@ -1370,7 +1372,7 @@ snapshots:
 
   reflect-metadata@0.1.14: {}
 
-  remult@3.0.5:
+  remult@3.0.6-next.0:
     dependencies:
       '@paralleldrive/cuid2': 2.2.2
       reflect-metadata: 0.1.14
