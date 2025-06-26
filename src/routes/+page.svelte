@@ -8,7 +8,7 @@
 
 <div class="tiles">
   <Tile
-    title="r-17"
+    title="better-auth-sveltekit"
     subtitle=""
     icon="remult"
     className="intro"
@@ -35,6 +35,10 @@
       <div class="intro__stack-item">
         <span>Database</span>
         JSON Files
+      </div>
+      <div class="intro__stack-item">
+        <span>Auth</span>
+        better-auth
       </div>
     </div>
   </Tile>
